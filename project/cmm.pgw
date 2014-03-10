@@ -1,0 +1,20 @@
+[Application]
+WindowPlacement=2 3 -32000 -32000 -1 -1 226 0 917 738
+[Editor1]
+FileName=.\cmmyacc.y
+ReadOnly=0
+WindowPlacement1=2 3 -1 -1 -4 -30 27 71 897 512
+WindowOrder1=1
+Position001=0 78
+Cursor001=20 513 20 513
+SyntaxColouring=2
+TargetSyntaxColouring=3
+[Editor2]
+FileName=.\cmmlex.l
+ReadOnly=0
+WindowPlacement1=0 1 -1 -1 -4 -30 66 87 936 528
+WindowOrder1=2
+Position001=0 52
+Cursor001=0 1 0 1
+SyntaxColouring=1
+TargetSyntaxColouring=3

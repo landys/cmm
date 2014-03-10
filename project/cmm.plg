@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cmm - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Tony\LOCALS~1\Temp\RSP21B.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/cmm.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Tony\Lex\3032112162_王金德_编译实验自选题\project\cmmlex.c"
+"E:\Tony\Lex\3032112162_王金德_编译实验自选题\project\cmmyacc.c"
+"E:\Tony\Lex\3032112162_王金德_编译实验自选题\project\code.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Tony\LOCALS~1\Temp\RSP21B.tmp" 
+Creating temporary file "C:\DOCUME~1\Tony\LOCALS~1\Temp\RSP21C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib yl.lib /nologo /subsystem:console /incremental:no /pdb:"Release/cmm.pdb" /machine:I386 /out:"Release/cmm.exe" 
+".\Release\cmmlex.obj"
+".\Release\cmmyacc.obj"
+".\Release\code.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\Tony\LOCALS~1\Temp\RSP21C.tmp"
+<h3>Output Window</h3>
+Compiling...
+cmmlex.c
+cmmyacc.c
+.\cmmyacc.y(465) : warning C4028: formal parameter 1 different from declaration
+code.c
+Linking...
+
+
+
+<h3>Results</h3>
+cmm.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
